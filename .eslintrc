@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "plugin:vue/recommended",
+    "airbnb-base"
+  ],
+  "plugins": [
+    "vue"
+  ],
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "root": true,
+  "rules": {
+    "linebreak-style": 0,
+    "no-console": 0,
+    "comma-dangle": 0
+  },
+  "env": {
+    "mocha": true,
+    "node": true,
+    "browser": true
+  }
+}
