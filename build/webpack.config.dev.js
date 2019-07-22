@@ -43,6 +43,9 @@ module.exports = merge(baseConfig, {
   },
 
   plugins: [
-    new webpack.HotModuleReplacementPlugin()
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.EnvironmentPlugin({
+      API_URL: process.env.API_URL,
+    })
   ]
 })
