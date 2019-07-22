@@ -15,8 +15,7 @@ export default new Vuex.Store({
   },
   actions: {
     login({ commit }, user) {
-      // const url = process.env.API_URL;
-      const url = 'http://localhost:3000/itau';
+      const url = `${process.env.API_URL}/itau`;
       return axios.post(url, user)
         .then(response => commit('authSuccess', response.data));
     }
