@@ -16,7 +16,7 @@
     "comma-dangle": 0
   },
   "env": {
-    "mocha": true,
+    "jest": true,
     "node": true,
     "browser": true
   }
