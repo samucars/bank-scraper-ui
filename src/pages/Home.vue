@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="home-container">
     <div class="row">
       <Card
         title="Saldo"
@@ -25,6 +25,14 @@
     </div>
   </div>
 </template>
+
+<style lang="stylus" scoped>
+
+.home-container {
+  margin-top: 8%;
+}
+
+</style>
 
 <script>
 import { mapGetters } from 'vuex';
